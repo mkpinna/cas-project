@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T13:53:19 IST" name="Suite" finished-at="2024-02-19T13:56:35 IST" duration-ms="196521">
+    <groups>
+    </groups>
+    <test started-at="2024-02-19T13:53:19 IST" name="Test" finished-at="2024-02-19T13:56:35 IST" duration-ms="196521">
+      <class name="CASPROJECT.TC01">
+        <test-method signature="Login()[pri:0, instance:CASPROJECT.TC01@229f66ed]" started-at="2024-02-19T13:53:36 IST" name="Login" finished-at="2024-02-19T13:53:47 IST" duration-ms="10702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- CASPROJECT.TC01 -->
+      <class name="CASPROJECT.TC02">
+        <test-method signature="VerifyUser()[pri:0, instance:CASPROJECT.TC02@31190526]" started-at="2024-02-19T13:53:47 IST" name="VerifyUser" finished-at="2024-02-19T13:53:48 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+      </class> <!-- CASPROJECT.TC02 -->
+      <class name="CASPROJECT.TC03">
+        <test-method signature="checkAcronym()[pri:0, instance:CASPROJECT.TC03@662ac478]" started-at="2024-02-19T13:53:48 IST" name="checkAcronym" finished-at="2024-02-19T13:54:27 IST" duration-ms="39562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAcronym -->
+      </class> <!-- CASPROJECT.TC03 -->
+      <class name="CASPROJECT.TC04">
+        <test-method signature="HomePageValidation()[pri:0, instance:CASPROJECT.TC04@6743e411]" started-at="2024-02-19T13:54:27 IST" name="HomePageValidation" finished-at="2024-02-19T13:54:40 IST" duration-ms="12344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+      </class> <!-- CASPROJECT.TC04 -->
+      <class name="CASPROJECT.TC05">
+        <test-method signature="validateInvestingHome()[pri:0, instance:CASPROJECT.TC05@3eb25e1a]" started-at="2024-02-19T13:54:40 IST" name="validateInvestingHome" finished-at="2024-02-19T13:54:42 IST" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvestingHome -->
+      </class> <!-- CASPROJECT.TC05 -->
+      <class name="CASPROJECT.TC06">
+        <test-method signature="stockValidation()[pri:0, instance:CASPROJECT.TC06@477b4cdf]" started-at="2024-02-19T13:54:42 IST" name="stockValidation" finished-at="2024-02-19T13:56:33 IST" duration-ms="110681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stockValidation -->
+      </class> <!-- CASPROJECT.TC06 -->
+      <class name="CASPROJECT.BasePage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:CASPROJECT.BasePage@6a6cb05c]" started-at="2024-02-19T13:53:19 IST" name="beforeClass" finished-at="2024-02-19T13:53:36 IST" duration-ms="16614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:CASPROJECT.BasePage@6a6cb05c]" started-at="2024-02-19T13:56:33 IST" name="afterClass" finished-at="2024-02-19T13:56:35 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- CASPROJECT.BasePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
